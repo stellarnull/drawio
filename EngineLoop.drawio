@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2022-09-19T13:01:26.135Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="DJpBrSMvABQ2v6ImztIk" version="20.3.3" type="github"><diagram id="w5NqQpw-4F_Ai6WH48T7" name="Page-1">ddHNEoIgEADgp+GuMGN1JqtLJw+dGdmEGXQdpNF6+nSAjLFOLN8uLD+E8XY6W9GrK0owhGZyIuxIKKVZQedhkaeXPGdBGqtlsBUq/YKAWdCHljAkhQ7RON2nWGPXQe0SE9bimJbd0aRde9HABqpamK3etHTK657uVr+AblTsnBcHn2lFLA43GZSQOH4RKwnjFtH5qJ04mOX14rv4dac/2c/BLHTux4I5WPeeJ8kXsfIN</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-20T07:09:30.901Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="TnnYkbMpxmjuRo36zbp0" version="20.3.3" type="github">
+  <diagram id="w5NqQpw-4F_Ai6WH48T7" name="Page-1">
+    <mxGraphModel dx="1422" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mRdrlsO01GoDBvGYWRq_-1" value="UEngine::Tick" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="450" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mRdrlsO01GoDBvGYWRq_-3" value="&lt;pre style=&quot;background-color:#151515;color:#a9b7c6;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;World-&amp;gt;UpdateLevelStreaming()&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="520" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mRdrlsO01GoDBvGYWRq_-4" value="&lt;pre style=&quot;background-color:#151515;color:#a9b7c6;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;ULevelStreaming::UpdateStreamingState&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="520" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mRdrlsO01GoDBvGYWRq_-5" value="&lt;pre style=&quot;background-color:#151515;color:#a9b7c6;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;World-&amp;gt;AddToWorld&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="520" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mRdrlsO01GoDBvGYWRq_-6" value="AActor::BeginPlay" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="510" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mRdrlsO01GoDBvGYWRq_-7" value="&lt;pre style=&quot;background-color:#151515;color:#a9b7c6;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;WorldComposition-&amp;gt;OnAddNotifyHLOD&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="560" width="310" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mRdrlsO01GoDBvGYWRq_-8" value="&lt;pre style=&quot;background-color:#151515;color:#a9b7c6;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;&lt;span style=&quot;color:#4ec9b0;&quot;&gt;UWorld&lt;/span&gt;::&lt;span style=&quot;color:#ff8000;&quot;&gt;Tick&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="340" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mRdrlsO01GoDBvGYWRq_-9" value="&lt;pre style=&quot;background-color:#151515;color:#a9b7c6;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;&lt;span style=&quot;color:#dda0dd;&quot;&gt;WorldComposition&lt;/span&gt;-&amp;gt;&lt;span style=&quot;color:#ff8000;&quot;&gt;UpdateStreamingState&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="340" width="350" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mRdrlsO01GoDBvGYWRq_-10" value="&lt;pre style=&quot;background-color:#151515;color:#a9b7c6;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;CheckHLODGridVisibility&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="340" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mRdrlsO01GoDBvGYWRq_-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="280" as="sourcePoint" />
+            <mxPoint x="80" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mRdrlsO01GoDBvGYWRq_-12" value="Time" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="450" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mRdrlsO01GoDBvGYWRq_-13" value="&lt;pre style=&quot;font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; background-color: rgb(21, 21, 21); color: rgb(169, 183, 198); font-family: Consolas, monospace; font-size: 11.3pt;&quot;&gt;&lt;span style=&quot;color: rgb(221, 160, 221);&quot;&gt;GameViewport&lt;/span&gt;-&amp;gt;&lt;span style=&quot;color: rgb(221, 160, 221);&quot;&gt;Viewport&lt;/span&gt;-&amp;gt;&lt;span style=&quot;color: rgb(255, 128, 0);&quot;&gt;Draw&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="520" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mRdrlsO01GoDBvGYWRq_-17" value="&lt;pre style=&quot;background-color:#151515;color:#a9b7c6;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;SetNeedNotifyMainHLOD&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="490" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mRdrlsO01GoDBvGYWRq_-18" value="Broadcast HLOD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="570" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
