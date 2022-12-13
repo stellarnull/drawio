@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-12T12:40:39.958Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="jDcwWWpeXQtOAcpfk5q-" version="20.6.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-12-13T02:01:03.230Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="v-l-APpVn_1N5aa2RWK8" version="20.6.2" type="github" pages="5">
   <diagram id="w5NqQpw-4F_Ai6WH48T7" name="EngineLoopTiming">
     <mxGraphModel dx="2062" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -297,8 +297,8 @@
         <mxCell id="uuM7YUlmBo37oAAqLOYN-20" value="1. 分格子 &amp;amp; copy非特殊的Actor&lt;br&gt;2. 建筑在这一步需要单独跳过" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="120" y="1055" width="205" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uuM7YUlmBo37oAAqLOYN-26" value="SaveLODData" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1210" y="955" width="120" height="60" as="geometry" />
+        <mxCell id="uuM7YUlmBo37oAAqLOYN-26" value="SaveLODDataAndDelComps" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1163.75" y="955" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uuM7YUlmBo37oAAqLOYN-35" value="BuildingStage_Pre" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="960" width="120" height="60" as="geometry" />
@@ -330,20 +330,11 @@
         <mxCell id="uuM7YUlmBo37oAAqLOYN-45" value="修改内容&lt;br&gt;（上传框架）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="5" y="1170" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="uuM7YUlmBo37oAAqLOYN-46" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. 生成ProcImposter&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. 生成ShadowMesh&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3. 记录LOD0、&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;LOD2和ChildActor使用的资源，并删除LOD2的components&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4. 记录VisibilityID（pvs烘焙的结果）和LightMapID（LightMap烘焙的结果）到RtBuilding上&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="uuM7YUlmBo37oAAqLOYN-46" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. 生成ProcImposter&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. 生成ShadowMesh&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3. 记录LOD0、&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;LOD2和ChildActor使用的资源，并删除LOD2的components&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4. 记录VisibilityID（pvs烘焙的结果）和LightMapID（LightMap烘焙的结果）到RtBuilding上&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;5. 删除RtBuilding下所有Components&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1080" y="1040" width="360" height="120" as="geometry" />
         </mxCell>
         <mxCell id="uuM7YUlmBo37oAAqLOYN-48" value="&lt;div style=&quot;&quot;&gt;Actor:&lt;/div&gt;&lt;div style=&quot;&quot;&gt;1. ProcImposter&lt;/div&gt;&lt;div style=&quot;&quot;&gt;2. ShadowMesh&lt;/div&gt;&lt;div style=&quot;&quot;&gt;3. RtBuilding&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="1080" y="1170" width="360" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="uuM7YUlmBo37oAAqLOYN-49" value="Delete Components" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1510" y="955" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="uuM7YUlmBo37oAAqLOYN-50" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. 删除RtBuilding下所有Components&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1475" y="1055" width="215" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="uuM7YUlmBo37oAAqLOYN-51" value="&lt;div style=&quot;&quot;&gt;Actor:&lt;/div&gt;&lt;div style=&quot;&quot;&gt;1&lt;span style=&quot;background-color: initial;&quot;&gt;. RtBuilding&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1472.5" y="1170" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uuM7YUlmBo37oAAqLOYN-52" value="MAMMerge" style="whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="790" y="960" width="120" height="60" as="geometry" />
@@ -355,16 +346,16 @@
           <mxGeometry x="930" y="1055" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Z6oYF5TCddQeFdnuydKP-3" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="1363.75" y="341.25" width="20" height="1167.5" as="geometry" />
+          <mxGeometry x="1234.38" y="470.63" width="20" height="908.75" as="geometry" />
         </mxCell>
         <mxCell id="Z6oYF5TCddQeFdnuydKP-4" value="开runtime场景" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1323.75" y="880" width="100" height="30" as="geometry" />
+          <mxGeometry x="1194.38" y="880" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Z6oYF5TCddQeFdnuydKP-5" value="HLOD&lt;br&gt;（不支持增量）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1780" y="955" width="120" height="60" as="geometry" />
+          <mxGeometry x="1510" y="955" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Z6oYF5TCddQeFdnuydKP-7" value="&lt;div style=&quot;&quot;&gt;因为不支持增量，所有修改自己处理保存，不上传给框架处理。&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Level：&lt;/div&gt;&lt;div style=&quot;&quot;&gt;1. 生成一些umap&lt;/div&gt;&lt;div style=&quot;&quot;&gt;2. 删除一些umap&lt;/div&gt;&lt;div style=&quot;&quot;&gt;在现有umap上：&lt;/div&gt;&lt;div style=&quot;&quot;&gt;1. 修改RtBuilding（Actor）&lt;/div&gt;&lt;div style=&quot;&quot;&gt;2. 修改UPackage::WorldTileInfo&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1740" y="1130" width="220" height="150" as="geometry" />
+          <mxGeometry x="1470" y="1130" width="220" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
