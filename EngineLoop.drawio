@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-07T15:07:22.790Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="meWsDexjtqaGdsLtvWQp" version="22.1.5" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-12-07T15:28:27.781Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="ALqdk-ILKdLxYU4MqlSs" version="22.1.5" type="github" pages="7">
   <diagram id="w5NqQpw-4F_Ai6WH48T7" name="EngineLoopTiming">
     <mxGraphModel dx="2074" dy="1134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -645,7 +645,34 @@
           <mxGeometry x="40" y="255" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="vuI7dHFAqiy7bKDRm7oS-32" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#4ec9b0;&quot;&gt;FAsyncLoadingThread&lt;/span&gt;::&lt;span style=&quot;color:#ff8000;&quot;&gt;Run&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="950" width="270" height="80" as="geometry" />
+          <mxGeometry x="550" y="930" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vuI7dHFAqiy7bKDRm7oS-33" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#ff8000;&quot;&gt;TickAsyncThread&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="970" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vuI7dHFAqiy7bKDRm7oS-34" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#ff8000;&quot;&gt;CreateAsyncPackagesFromQueue&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1030" width="310" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vuI7dHFAqiy7bKDRm7oS-35" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#ff8000;&quot;&gt;ProcessAsyncPackageRequest&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1070" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vuI7dHFAqiy7bKDRm7oS-36" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#ff8000;&quot;&gt;InsertPackage&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="1120" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vuI7dHFAqiy7bKDRm7oS-37" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#ff8000;&quot;&gt;QueueEvent_CreateLinker&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1170" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vuI7dHFAqiy7bKDRm7oS-38" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#dda0dd;&quot;&gt;AsyncPackages&lt;/span&gt;.&lt;span style=&quot;color:#ff8000;&quot;&gt;InsertUninitialized&lt;/span&gt;(&lt;span style=&quot;color:#bdb76a;&quot;&gt;InsertIndex&lt;/span&gt;);&lt;br&gt;&lt;span style=&quot;color:#dda0dd;&quot;&gt;AsyncPackages&lt;/span&gt;&lt;span style=&quot;color:#bdb76a;&quot;&gt;[InsertIndex] &lt;/span&gt;= &lt;span style=&quot;color:#ffd200;&quot;&gt;Package&lt;/span&gt;;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="1160" width="500" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vuI7dHFAqiy7bKDRm7oS-39" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#dda0dd;&quot;&gt;EventQueue&lt;/span&gt;.&lt;span style=&quot;color:#ff8000;&quot;&gt;AddAsyncEvent&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1230" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vuI7dHFAqiy7bKDRm7oS-40" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#ff8000;&quot;&gt;ProcessAsyncLoading&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1030" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vuI7dHFAqiy7bKDRm7oS-42" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#dda0dd;&quot;&gt;EventQueue&lt;/span&gt;.&lt;span style=&quot;color:#ff8000;&quot;&gt;PopAndExecute&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1070" width="270" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
