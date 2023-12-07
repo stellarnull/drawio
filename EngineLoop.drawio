@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-29T15:04:22.008Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="xK5R5LSrxsGgDxLkgWW1" version="22.1.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-12-07T15:07:22.790Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="meWsDexjtqaGdsLtvWQp" version="22.1.5" type="github" pages="7">
   <diagram id="w5NqQpw-4F_Ai6WH48T7" name="EngineLoopTiming">
     <mxGraphModel dx="2074" dy="1134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -297,7 +297,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="N_xezSVJqQJ_t_pVc05Z" name="SceneBuildIncre">
-    <mxGraphModel dx="2074" dy="1078" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="4000" math="0" shadow="0">
+    <mxGraphModel dx="792" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="4000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -459,7 +459,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CnJx-Qr8b_jjyQ42ZkJ_" name="OcclusionCull">
-    <mxGraphModel dx="2074" dy="5078" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="4000" math="0" shadow="0">
+    <mxGraphModel dx="792" dy="5124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="4000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -476,7 +476,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HjOjwsHcP9hukv18CxrD" name="Lightmap">
-    <mxGraphModel dx="2001" dy="1164" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="4000" math="0" shadow="0">
+    <mxGraphModel dx="792" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="4000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -510,44 +510,142 @@
         <mxCell id="PvQhfBdtFlHUvp-S1ska-1" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#4ec9b0;&quot;&gt;UMapBuildDataRegistry&lt;/span&gt;::&lt;span style=&quot;color:#ff8000;&quot;&gt;InvalidateStaticLighting&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="30" y="1310" width="500" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="YATaSyPrLG6ic4JQjA4--1" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;FSkyLightSceneProxy::&lt;span style=&quot;color:#dda0dd;&quot;&gt;LightMapSkyLightColor&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YATaSyPrLG6ic4JQjA4--1" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;FSkyLightSceneProxy::&lt;span style=&quot;color:#dda0dd;&quot;&gt;LightMapSkyLightColor&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="2060" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="YATaSyPrLG6ic4JQjA4--2" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#4ec9b0;&quot;&gt;FLinearColor&lt;/span&gt;&lt;span style=&quot;color:#bdb76a;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color:#ffd200;&quot;&gt;InLightComponent&lt;/span&gt;-&amp;gt;&lt;span style=&quot;color:#dda0dd;&quot;&gt;LightColorIndoor&lt;/span&gt;&lt;span style=&quot;color:#bdb76a;&quot;&gt;)* &lt;/span&gt;&lt;span style=&quot;color:#ffd200;&quot;&gt;InLightComponent&lt;/span&gt;-&amp;gt;&lt;span style=&quot;color:#dda0dd;&quot;&gt;IntensityIndoor&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YATaSyPrLG6ic4JQjA4--2" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#4ec9b0;&quot;&gt;FLinearColor&lt;/span&gt;&lt;span style=&quot;color:#bdb76a;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color:#ffd200;&quot;&gt;InLightComponent&lt;/span&gt;-&amp;gt;&lt;span style=&quot;color:#dda0dd;&quot;&gt;LightColorIndoor&lt;/span&gt;&lt;span style=&quot;color:#bdb76a;&quot;&gt;)* &lt;/span&gt;&lt;span style=&quot;color:#ffd200;&quot;&gt;InLightComponent&lt;/span&gt;-&amp;gt;&lt;span style=&quot;color:#dda0dd;&quot;&gt;IntensityIndoor&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="530" y="2060" width="560" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="YATaSyPrLG6ic4JQjA4--4" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#d69d85;&quot;&gt;LightMap SkyLight Color&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YATaSyPrLG6ic4JQjA4--4" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#d69d85;&quot;&gt;LightMap SkyLight Color&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="800" y="2030" width="260" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="YATaSyPrLG6ic4JQjA4--5" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#d69d85;&quot;&gt;LightMap SkyLight Intensity&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YATaSyPrLG6ic4JQjA4--5" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#d69d85;&quot;&gt;LightMap SkyLight Intensity&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1130" y="2030" width="300" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="YATaSyPrLG6ic4JQjA4--6" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#ffd200;&quot;&gt;ViewUniformShaderParameters&lt;/span&gt;.&lt;span style=&quot;color:#dda0dd;&quot;&gt;LightMapSkyLightColor&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YATaSyPrLG6ic4JQjA4--6" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#ffd200;&quot;&gt;ViewUniformShaderParameters&lt;/span&gt;.&lt;span style=&quot;color:#dda0dd;&quot;&gt;LightMapSkyLightColor&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="1970" width="520" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="YATaSyPrLG6ic4JQjA4--7" value="=" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="YATaSyPrLG6ic4JQjA4--7" value="=" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="290" y="2025" width="30" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="YATaSyPrLG6ic4JQjA4--8" value="=" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="YATaSyPrLG6ic4JQjA4--8" value="=" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="500" y="2080" width="30" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="YATaSyPrLG6ic4JQjA4--9" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#ffd200;&quot;&gt;ViewUniformShaderParameters&lt;/span&gt;.&lt;span style=&quot;color:#dda0dd;&quot;&gt;LowEndLightMapSkyLightIntensity&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YATaSyPrLG6ic4JQjA4--9" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#ffd200;&quot;&gt;ViewUniformShaderParameters&lt;/span&gt;.&lt;span style=&quot;color:#dda0dd;&quot;&gt;LowEndLightMapSkyLightIntensity&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="2260" width="560" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="YATaSyPrLG6ic4JQjA4--10" value="=" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="YATaSyPrLG6ic4JQjA4--10" value="=" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="290" y="2310" width="30" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="YATaSyPrLG6ic4JQjA4--13" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;FSkyLightSceneProxy::&lt;span style=&quot;color:#dda0dd;&quot;&gt;LowEndLightMapSkyLightIntensity&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YATaSyPrLG6ic4JQjA4--13" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;FSkyLightSceneProxy::&lt;span style=&quot;color:#dda0dd;&quot;&gt;LowEndLightMapSkyLightIntensity&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="2330" width="530" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="YATaSyPrLG6ic4JQjA4--15" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#ffd200;&quot;&gt;InLightComponent&lt;/span&gt;-&amp;gt;&lt;span style=&quot;color:#dda0dd;&quot;&gt;LowEndLightMapSkyLightIntensity&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YATaSyPrLG6ic4JQjA4--15" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#ffd200;&quot;&gt;InLightComponent&lt;/span&gt;-&amp;gt;&lt;span style=&quot;color:#dda0dd;&quot;&gt;LowEndLightMapSkyLightIntensity&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="640" y="2330" width="520" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="YATaSyPrLG6ic4JQjA4--16" value="=" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="YATaSyPrLG6ic4JQjA4--16" value="=" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="600" y="2350" width="30" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="YATaSyPrLG6ic4JQjA4--17" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#d69d85;&quot;&gt;Low End LightMap SkyLight Intensity&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YATaSyPrLG6ic4JQjA4--17" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#d69d85;&quot;&gt;Low End LightMap SkyLight Intensity&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="2300" width="380" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="CVqXUfbmSaJqcNSdejHs" name="AsyncLoading">
+    <mxGraphModel dx="1089" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="4000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vuI7dHFAqiy7bKDRm7oS-25" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#57a64a;&quot;&gt;// Generate new request ID and add it immediately to the global request list (it needs to be there before we exit&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#57a64a;&quot;&gt;// this function, otherwise it would be added when the packages are being processed on the async thread).&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#bdb76a;&quot;&gt;RequestID &lt;/span&gt;= &lt;span style=&quot;color:#808000;&quot;&gt;GPackageRequestID&lt;/span&gt;.&lt;span style=&quot;color:#ff8000;&quot;&gt;Increment&lt;/span&gt;();&lt;br&gt;&lt;span style=&quot;color:#ff8000;&quot;&gt;AddPendingRequest&lt;/span&gt;(&lt;span style=&quot;color:#bdb76a;&quot;&gt;RequestID&lt;/span&gt;);&lt;br&gt;&lt;br&gt;&lt;span style=&quot;color:#57a64a;&quot;&gt;// Add new package request&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#4ec9b0;&quot;&gt;FAsyncPackageDesc &lt;/span&gt;&lt;span style=&quot;color:#bdb76a;&quot;&gt;PackageDesc(RequestID&lt;/span&gt;, &lt;span style=&quot;color:#bdb76a;&quot;&gt;*PackageName&lt;/span&gt;, &lt;span style=&quot;color:#bdb76a;&quot;&gt;*PackageNameToLoad&lt;/span&gt;, &lt;span style=&quot;color:#ffd200;&quot;&gt;InGuid &lt;/span&gt;? *&lt;span style=&quot;color:#ffd200;&quot;&gt;InGuid &lt;/span&gt;: &lt;span style=&quot;color:#4ec9b0;&quot;&gt;FGuid&lt;/span&gt;&lt;span style=&quot;color:#bdb76a;&quot;&gt;()&lt;/span&gt;, &lt;span style=&quot;color:#add8e6;&quot;&gt;MoveTemp&lt;/span&gt;(&lt;span style=&quot;color:#bdb76a;&quot;&gt;CompletionDelegatePtr&lt;/span&gt;), &lt;span style=&quot;color:#ffd200;&quot;&gt;InPackageFlags&lt;/span&gt;, &lt;span style=&quot;color:#ffd200;&quot;&gt;InPIEInstanceID&lt;/span&gt;, &lt;span style=&quot;color:#ffd200;&quot;&gt;InPackagePriority&lt;/span&gt;&lt;span style=&quot;color:#bdb76a;&quot;&gt;)&lt;/span&gt;;&lt;br&gt;&lt;span style=&quot;color:#ff8000;&quot;&gt;QueuePackage&lt;/span&gt;(&lt;span style=&quot;color:#bdb76a;&quot;&gt;PackageDesc&lt;/span&gt;);&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="570" width="560" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="vuI7dHFAqiy7bKDRm7oS-1" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#4ec9b0;&quot;&gt;FStreamableManager&lt;/span&gt;::&lt;span style=&quot;color:#ff8000;&quot;&gt;RequestSyncLoad&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="300" width="380" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vuI7dHFAqiy7bKDRm7oS-2" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#ff8000;&quot;&gt;RequestAsyncLoad&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="350" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vuI7dHFAqiy7bKDRm7oS-3" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#ff8000;&quot;&gt;StartHandleRequests&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="390" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vuI7dHFAqiy7bKDRm7oS-4" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#ff8000;&quot;&gt;StreamInternal&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="430" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vuI7dHFAqiy7bKDRm7oS-5" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#dda0dd;&quot;&gt;bForceSynchronousLoads&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="430" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vuI7dHFAqiy7bKDRm7oS-6" value="true" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="440" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vuI7dHFAqiy7bKDRm7oS-7" value="false" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="480" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vuI7dHFAqiy7bKDRm7oS-8" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#add8e6;&quot;&gt;StaticLoadObject&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="410" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vuI7dHFAqiy7bKDRm7oS-9" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#add8e6;&quot;&gt;LoadPackageAsync&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="460" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vuI7dHFAqiy7bKDRm7oS-10" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#add8e6;&quot;&gt;StaticLoadObjectInternal&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="410" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vuI7dHFAqiy7bKDRm7oS-11" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#add8e6;&quot;&gt;ResolveName&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="410" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vuI7dHFAqiy7bKDRm7oS-12" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#add8e6;&quot;&gt;LoadPackage&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="410" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vuI7dHFAqiy7bKDRm7oS-14" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#add8e6;&quot;&gt;LoadPackageInternal&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="410" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vuI7dHFAqiy7bKDRm7oS-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="vuI7dHFAqiy7bKDRm7oS-14" target="vuI7dHFAqiy7bKDRm7oS-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="980" y="560" as="sourcePoint" />
+            <mxPoint x="1030" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1280" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vuI7dHFAqiy7bKDRm7oS-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vuI7dHFAqiy7bKDRm7oS-14" target="vuI7dHFAqiy7bKDRm7oS-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vuI7dHFAqiy7bKDRm7oS-18" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#4ec9b0;&quot;&gt;FAsyncLoadingThread&lt;/span&gt;::&lt;span style=&quot;color:#ff8000;&quot;&gt;LoadPackage&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="530" width="350" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vuI7dHFAqiy7bKDRm7oS-19" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#add8e6;&quot;&gt;FlushAsyncLoading&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="430" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vuI7dHFAqiy7bKDRm7oS-20" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#add8e6;&quot;&gt;LoadPackageAsync&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="390" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vuI7dHFAqiy7bKDRm7oS-22" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#4ec9b0;&quot;&gt;FAsyncLoadingThread&lt;/span&gt;::&lt;span style=&quot;color:#ff8000;&quot;&gt;FlushLoading&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="430" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vuI7dHFAqiy7bKDRm7oS-24" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;while &lt;/span&gt;(&lt;span style=&quot;color:#808000;&quot;&gt;IsAsyncLoading&lt;/span&gt;())&lt;br&gt;{&lt;br&gt;    &lt;span style=&quot;color:#81b3c9;&quot;&gt;EAsyncPackageState&lt;/span&gt;::&lt;span style=&quot;color:#4ec9b0;&quot;&gt;Type &lt;/span&gt;&lt;span style=&quot;color:#646464;&quot;&gt;Result &lt;/span&gt;= &lt;span style=&quot;color:#ff8000;&quot;&gt;TickAsyncLoading&lt;/span&gt;(&lt;span style=&quot;color:#569cd6;&quot;&gt;false&lt;/span&gt;, &lt;span style=&quot;color:#569cd6;&quot;&gt;false&lt;/span&gt;, &lt;span style=&quot;color:#b5cea8;&quot;&gt;0&lt;/span&gt;, &lt;span style=&quot;color:#bdb76a;&quot;&gt;FlushTree&lt;/span&gt;.&lt;span style=&quot;color:#ff8000;&quot;&gt;Get&lt;/span&gt;());&lt;br&gt;    &lt;span style=&quot;color:#57a64a;&quot;&gt;// If PackageID is valid &amp;amp;&amp;amp; PackageID is not in PendingRequests, then the loading is completed, and we could break.&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#57a64a;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;if &lt;/span&gt;(&lt;span style=&quot;color:#ffd200;&quot;&gt;PackageID &lt;/span&gt;!= &lt;span style=&quot;color:#b8d7a3;&quot;&gt;INDEX_NONE &lt;/span&gt;&amp;amp;&amp;amp; !&lt;span style=&quot;color:#ff8000;&quot;&gt;ContainsRequestID&lt;/span&gt;(&lt;span style=&quot;color:#ffd200;&quot;&gt;PackageID&lt;/span&gt;))&lt;br&gt;    {&lt;br&gt;       &lt;span style=&quot;color:#569cd6;&quot;&gt;break&lt;/span&gt;;&lt;br&gt;    }&lt;br&gt;&lt;br&gt;    &lt;span style=&quot;color:#569cd6;&quot;&gt;if &lt;/span&gt;(&lt;span style=&quot;color:#ff8000;&quot;&gt;IsMultithreaded&lt;/span&gt;())&lt;br&gt;    {&lt;br&gt;       &lt;span style=&quot;color:#57a64a;&quot;&gt;// Update the heartbeat and sleep. If we&#39;re not multithreading, the heartbeat is updated after each package has been processed&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#57a64a;&quot;&gt;       &lt;/span&gt;&lt;span style=&quot;color:#4ec9b0;&quot;&gt;FThreadHeartBeat&lt;/span&gt;::&lt;span style=&quot;color:#ffd200;font-style:italic;&quot;&gt;Get&lt;/span&gt;().&lt;span style=&quot;color:#ff8000;&quot;&gt;HeartBeat&lt;/span&gt;();&lt;br&gt;       &lt;span style=&quot;color:#4ec9b0;&quot;&gt;FPlatformProcess&lt;/span&gt;::&lt;span style=&quot;color:#ffd200;font-style:italic;&quot;&gt;SleepNoStats&lt;/span&gt;(&lt;span style=&quot;color:#b5cea8;&quot;&gt;0.0001f&lt;/span&gt;); &lt;span style=&quot;color:#57a64a;&quot;&gt;// That&#39;s why the main thread is slept.&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#57a64a;&quot;&gt;    &lt;/span&gt;}&lt;br&gt;&lt;br&gt;    &lt;span style=&quot;color:#57a64a;&quot;&gt;// push stats so that we don&#39;t overflow number of tags per thread during blocking loading&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#57a64a;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color:#bd63c5;&quot;&gt;LLM_PUSH_STATS_FOR_ASSET_TAGS&lt;/span&gt;();&lt;br&gt;}&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1950" y="255" width="560" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="vuI7dHFAqiy7bKDRm7oS-26" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#dda0dd;&quot;&gt;PendingRequests&lt;/span&gt;.&lt;span style=&quot;color:#ff8000;&quot;&gt;Add&lt;/span&gt;(&lt;span style=&quot;color:#ffd200;&quot;&gt;RequestID&lt;/span&gt;);&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="640" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vuI7dHFAqiy7bKDRm7oS-27" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#dda0dd;&quot;&gt;QueuedPackages&lt;/span&gt;.&lt;span style=&quot;color:#ff8000;&quot;&gt;Add&lt;/span&gt;(&lt;span style=&quot;color:#569cd6;&quot;&gt;new &lt;/span&gt;&lt;span style=&quot;color:#4ec9b0;&quot;&gt;FAsyncPackageDesc&lt;/span&gt;&lt;span style=&quot;color:#bdb76a;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color:#ffd200;&quot;&gt;Package&lt;/span&gt;, &lt;span style=&quot;color:#add8e6;&quot;&gt;MoveTemp&lt;/span&gt;(&lt;span style=&quot;color:#ffd200;&quot;&gt;Package&lt;/span&gt;.&lt;span style=&quot;color:#dda0dd;&quot;&gt;PackageLoadedDelegate&lt;/span&gt;)&lt;span style=&quot;color:#bdb76a;&quot;&gt;)&lt;/span&gt;);&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="750" width="560" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vuI7dHFAqiy7bKDRm7oS-28" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF0000;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="460" y="660" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vuI7dHFAqiy7bKDRm7oS-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF0000;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="460" y="747" width="270" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vuI7dHFAqiy7bKDRm7oS-30" value="&lt;span style=&quot;color: rgb(18, 18, 18); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;ALT&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="900" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vuI7dHFAqiy7bKDRm7oS-31" value="&lt;span style=&quot;color: rgb(18, 18, 18); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Source Han Sans SC&amp;quot;, &amp;quot;Noto Sans CJK SC&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;主线程&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="255" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vuI7dHFAqiy7bKDRm7oS-32" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#4ec9b0;&quot;&gt;FAsyncLoadingThread&lt;/span&gt;::&lt;span style=&quot;color:#ff8000;&quot;&gt;Run&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="950" width="270" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
