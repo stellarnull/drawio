@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-20T08:03:06.431Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="lgh_Xap0ds-egj9PWVp0" version="22.1.11" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-12-20T08:19:45.356Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="NwCy0PW8dxiG6H07STgr" version="22.1.11" type="github" pages="6">
   <diagram id="w5NqQpw-4F_Ai6WH48T7" name="EngineLoopTiming">
     <mxGraphModel dx="2314" dy="1078" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -542,12 +542,6 @@
         <mxCell id="r8pOXyOSPpLjmZiajfdQ-21" value="Leave IndexBuffer unmodified" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1270" y="400" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r8pOXyOSPpLjmZiajfdQ-22" value="We have View now and can do FrustumCull to each grid. This is a light operation." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1130" y="520" width="460" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="r8pOXyOSPpLjmZiajfdQ-23" value="Based on the results of FrustumCull, we can:" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1190" y="565" width="260" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="r8pOXyOSPpLjmZiajfdQ-26" value="Per frame:" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="530" y="440" width="80" height="30" as="geometry" />
         </mxCell>
@@ -557,11 +551,23 @@
             <mxPoint x="1940" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="r8pOXyOSPpLjmZiajfdQ-28" value="(1) Submit each grid as a MeshBatch&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Use draw to cut vertices&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1130" y="615" width="220" height="40" as="geometry" />
+        <mxCell id="r8pOXyOSPpLjmZiajfdQ-28" value="(1) Submit each grid as a MeshBatch/MeshBatchElement&amp;nbsp;and let later FrustumCull to cull grids.&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Use more draw call to cut vertices&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="470" width="530" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="r8pOXyOSPpLjmZiajfdQ-29" value="(2) Merge IndexBuffer and submit one MeshBatch.&lt;br&gt;May update IndexBuffer every frame" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1140" y="670" width="290" height="40" as="geometry" />
+        <mxCell id="r8pOXyOSPpLjmZiajfdQ-29" value="(2) We have View now and can do FrustumCull to each grid. This is a light operation.&lt;br&gt;Based on the results of FrustumCull, we can merge IndexBuffer and submit one MeshBatch.&lt;br&gt;May update IndexBuffer every frame" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1125" y="560" width="510" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r8pOXyOSPpLjmZiajfdQ-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.006;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="r8pOXyOSPpLjmZiajfdQ-7" target="r8pOXyOSPpLjmZiajfdQ-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1030" y="450" as="sourcePoint" />
+            <mxPoint x="1080" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r8pOXyOSPpLjmZiajfdQ-31" value="Opt:&lt;br&gt;Cache GridVisibility &amp;amp; FrustumCull results of the last frame." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1125" y="620" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r8pOXyOSPpLjmZiajfdQ-33" value="Opt:&lt;br&gt;May maintain a GridVisibility quadtree and update evert time GameThread visibility changes?" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1125" y="510" width="520" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
