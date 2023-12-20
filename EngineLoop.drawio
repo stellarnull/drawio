@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-11T09:10:28.712Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="fm63YRhjFuxXTvV0Db0F" version="22.1.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-12-20T08:03:06.431Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="lgh_Xap0ds-egj9PWVp0" version="22.1.11" type="github" pages="6">
   <diagram id="w5NqQpw-4F_Ai6WH48T7" name="EngineLoopTiming">
-    <mxGraphModel dx="2074" dy="1134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2314" dy="1078" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -491,6 +491,77 @@
         </mxCell>
         <mxCell id="vuI7dHFAqiy7bKDRm7oS-42" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#dda0dd;&quot;&gt;EventQueue&lt;/span&gt;.&lt;span style=&quot;color:#ff8000;&quot;&gt;PopAndExecute&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="850" y="1070" width="270" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="u7bf-ZrOHBZiR7g8yh0g" name="HLODVis">
+    <mxGraphModel dx="2074" dy="1134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="4000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="r8pOXyOSPpLjmZiajfdQ-1" value="GameThread Notify Grid Visibility Change" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="130" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r8pOXyOSPpLjmZiajfdQ-5" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#4ec9b0;&quot;&gt;HLODComponent&lt;/span&gt;::&lt;span style=&quot;color:#ff8000;&quot;&gt;SetGridVisibilityStatusAt_Internal&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="150" width="520" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r8pOXyOSPpLjmZiajfdQ-6" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#ff8000;&quot;&gt;MarkRenderDynamicDataDirty&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="200" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r8pOXyOSPpLjmZiajfdQ-7" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#ff8000;&quot;&gt;SendRenderDynamicData_Concurrent&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="250" width="350" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r8pOXyOSPpLjmZiajfdQ-8" value="GameThread" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="210" y="10" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r8pOXyOSPpLjmZiajfdQ-9" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#4ec9b0;&quot;&gt;HLODSceneProxy&lt;/span&gt;::&lt;span style=&quot;color:#ff8000;&quot;&gt;GenerateDynamicIBData_RenderThread&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="320" width="530" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r8pOXyOSPpLjmZiajfdQ-10" value="RenderThread" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="730" y="10" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r8pOXyOSPpLjmZiajfdQ-12" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#4ec9b0;&quot;&gt;HLODSceneProxy&lt;/span&gt;::&lt;span style=&quot;color:#ff8000;&quot;&gt;GetDynamicMeshElements&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="440" width="410" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r8pOXyOSPpLjmZiajfdQ-14" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#ffd200;&quot;&gt;Collector&lt;/span&gt;.&lt;span style=&quot;color:#ff8000;&quot;&gt;AddMesh&lt;/span&gt;(&lt;span style=&quot;color:#bdb76a;&quot;&gt;ViewIndex&lt;/span&gt;, &lt;span style=&quot;color:#bdb76a;&quot;&gt;Mesh&lt;/span&gt;);&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="470" width="380" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r8pOXyOSPpLjmZiajfdQ-17" value="Update Merged IndexBuffer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="700" y="370" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r8pOXyOSPpLjmZiajfdQ-18" value="submit one MeshBatch" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="710" y="520" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r8pOXyOSPpLjmZiajfdQ-19" value="RenderThread - to be modified" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1225" y="10" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r8pOXyOSPpLjmZiajfdQ-20" value="Update RenderThread GridVisibilityMap" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="380" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r8pOXyOSPpLjmZiajfdQ-21" value="Leave IndexBuffer unmodified" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="400" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r8pOXyOSPpLjmZiajfdQ-22" value="We have View now and can do FrustumCull to each grid. This is a light operation." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="520" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r8pOXyOSPpLjmZiajfdQ-23" value="Based on the results of FrustumCull, we can:" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="565" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r8pOXyOSPpLjmZiajfdQ-26" value="Per frame:" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="440" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r8pOXyOSPpLjmZiajfdQ-27" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="430" as="sourcePoint" />
+            <mxPoint x="1940" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r8pOXyOSPpLjmZiajfdQ-28" value="(1) Submit each grid as a MeshBatch&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Use draw to cut vertices&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="615" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r8pOXyOSPpLjmZiajfdQ-29" value="(2) Merge IndexBuffer and submit one MeshBatch.&lt;br&gt;May update IndexBuffer every frame" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="670" width="290" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
