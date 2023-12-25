@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-22T06:38:36.483Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="XgWVar4wewbUwCnPA4LY" version="22.1.11" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-12-25T08:15:48.083Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="mXjocti01XA8JmE0QHve" version="22.1.11" type="github" pages="6">
   <diagram id="w5NqQpw-4F_Ai6WH48T7" name="EngineLoopTiming">
     <mxGraphModel dx="2074" dy="1134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -128,7 +128,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HisIo5H1clJHNJ4teycv" name="RenderAssetStreaming">
-    <mxGraphModel dx="2371" dy="5134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="4000" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="5134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="4000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -414,6 +414,21 @@
         </mxCell>
         <mxCell id="dK499jyfHNxsSiTij52t-17" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#4ec9b0;&quot;&gt;FLightmassExporter&lt;/span&gt;::&lt;span style=&quot;color:#ffd200;font-style:italic;&quot;&gt;Copy&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="740" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HvwOQfZXEEaOjPjqkSP9-1" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#4ec9b0;&quot;&gt;FEditorBuildUtils&lt;/span&gt;::&lt;span style=&quot;color:#ffd200;font-style:italic;&quot;&gt;EditorBuild&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="220" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HvwOQfZXEEaOjPjqkSP9-2" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#4ec9b0;&quot;&gt;FSplitBakeToolModule&lt;/span&gt;::&lt;span style=&quot;color:#ff8000;&quot;&gt;LocalBakeLightmaps_MiniSuit&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" width="520" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HvwOQfZXEEaOjPjqkSP9-3" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#4ec9b0;&quot;&gt;FLevelEditorActionCallbacks&lt;/span&gt;::&lt;span style=&quot;color:#ffd200;font-style:italic;&quot;&gt;BuildLocalLightmaps&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="30" width="510" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HvwOQfZXEEaOjPjqkSP9-4" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:13.5pt;&quot;&gt;&lt;span style=&quot;color:#4ec9b0;&quot;&gt;FEditorBuildUtils&lt;/span&gt;::&lt;span style=&quot;color:#ffd200;font-style:italic;&quot;&gt;EditorBuild&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="60" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HvwOQfZXEEaOjPjqkSP9-5" value="SceneBuild" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="50" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
