@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3" pages="2">
-  <diagram name="PRP" id="Voaa0hVpeMHUIiZXv8sp">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.4" pages="3">
+  <diagram name="Render" id="Voaa0hVpeMHUIiZXv8sp">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -112,49 +112,120 @@
         <mxCell id="jID6rDYTjUCqh4Yij8ll-13" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;SetShaderKeywords&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1500" y="660" width="170" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="69ToR_8HbZWJ9TDHZz5m-1" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;UpdatePaperRPVisibleLight&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="69ToR_8HbZWJ9TDHZz5m-1" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;UpdatePaperRPVisibleLight&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1010" y="460" width="240" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="bf14ivOEYRixd8uhq06C" name="Page-2">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+  <diagram id="bf14ivOEYRixd8uhq06C" name="PRP">
+    <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="hru0ytr7piouiyXI4P5z-1" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;InitializeCameraData&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hru0ytr7piouiyXI4P5z-1" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;InitializeCameraData&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="350" width="200" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="hru0ytr7piouiyXI4P5z-2" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;&lt;span style=&quot;color:#4ec9b0;&quot;&gt;PapegameRenderPipeline&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hru0ytr7piouiyXI4P5z-2" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;&lt;span style=&quot;color:#4ec9b0;&quot;&gt;PapegameRenderPipeline&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="320" width="220" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="hru0ytr7piouiyXI4P5z-3" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;RenderSingleCamera&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hru0ytr7piouiyXI4P5z-3" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;RenderSingleCamera&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="320" width="180" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="hru0ytr7piouiyXI4P5z-4" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;Render&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hru0ytr7piouiyXI4P5z-4" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;Render&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="320" width="80" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="hru0ytr7piouiyXI4P5z-5" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;Update&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hru0ytr7piouiyXI4P5z-5" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;Update&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="770" y="270" width="80" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="hru0ytr7piouiyXI4P5z-6" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;Setup&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hru0ytr7piouiyXI4P5z-6" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;Setup&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="970" y="370" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="hru0ytr7piouiyXI4P5z-7" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;&lt;span style=&quot;color:#4ec9b0;&quot;&gt;PapeCamera&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hru0ytr7piouiyXI4P5z-7" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;&lt;span style=&quot;color:#4ec9b0;&quot;&gt;PapeCamera&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="270" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="hru0ytr7piouiyXI4P5z-8" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;Fill CameraData&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hru0ytr7piouiyXI4P5z-8" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;Fill CameraData&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="880" y="330" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="hru0ytr7piouiyXI4P5z-9" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;&lt;span style=&quot;color:#4ec9b0;&quot;&gt;PapeCamera&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hru0ytr7piouiyXI4P5z-9" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;&lt;span style=&quot;color:#4ec9b0;&quot;&gt;PapeCamera&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="880" y="370" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="hru0ytr7piouiyXI4P5z-10" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;Execute&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hru0ytr7piouiyXI4P5z-10" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;Execute&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="810" y="440" width="90" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="hru0ytr7piouiyXI4P5z-11" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;&lt;span style=&quot;color:#4ec9b0;&quot;&gt;ForwardRenderer&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hru0ytr7piouiyXI4P5z-11" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;&lt;span style=&quot;color:#4ec9b0;&quot;&gt;ForwardRenderer&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="440" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jzALt22aRWCnlScPM6uc-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=light-dark(#ff0000, #ededed);" vertex="1" parent="1">
+          <mxGeometry x="670" y="440" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j2fKoo0Yjss6wkkCM_m6-1" value="Page 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="660" y="420" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="7jZxH_6-7szyLKW8zE-E" name="WP">
+    <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Xy66Z-4rNSVgDLzVEtZ0-1" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;WorldPartitionStreamingSourceComponent&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="326" width="350" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Xy66Z-4rNSVgDLzVEtZ0-2" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;Tick&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="326" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Xy66Z-4rNSVgDLzVEtZ0-3" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;PapeWorldPartitionManager&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="260" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Xy66Z-4rNSVgDLzVEtZ0-4" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;UpdateStreamingState&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="260" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-BNBn9OGD7n9PEmFxY-o-1" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;PapeWorldPartitionManager&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="380" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-BNBn9OGD7n9PEmFxY-o-2" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;UpdateLevelStreaming&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="380" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-BNBn9OGD7n9PEmFxY-o-3" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;WorldPartition&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="260" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-BNBn9OGD7n9PEmFxY-o-4" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;UpdateStreamingState&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="260" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-BNBn9OGD7n9PEmFxY-o-5" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;WorldPartitionRuntimeCell&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="330" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-BNBn9OGD7n9PEmFxY-o-6" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;UpdateStreamingState&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="330" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-BNBn9OGD7n9PEmFxY-o-7" value="实际处理状态" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1224" y="346" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-BNBn9OGD7n9PEmFxY-o-8" value="计算状态" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1131" y="277" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-BNBn9OGD7n9PEmFxY-o-9" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;RequestLevel&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="370" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-BNBn9OGD7n9PEmFxY-o-10" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;UnLoadLevel&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="370" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-BNBn9OGD7n9PEmFxY-o-11" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;添加加卸载指令&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1225" y="410" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-BNBn9OGD7n9PEmFxY-o-12" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;RenderAssetStreamingManager&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="430" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-BNBn9OGD7n9PEmFxY-o-13" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;LoadResource&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1081" y="450" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-BNBn9OGD7n9PEmFxY-o-14" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;UnLoadResource&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1081" y="420" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-BNBn9OGD7n9PEmFxY-o-15" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;实际加卸载&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1209" y="450" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
