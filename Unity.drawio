@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.4" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16" pages="4">
   <diagram name="Render" id="Voaa0hVpeMHUIiZXv8sp">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -226,6 +226,47 @@
         </mxCell>
         <mxCell id="-BNBn9OGD7n9PEmFxY-o-15" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;实际加卸载&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1209" y="450" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="IF8exIzP8RXyZl0_qoAP" name="NN4">
+    <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="l6SydOB71kSHJgn0mLkd-1" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;UniversalRenderPipeline&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="330" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l6SydOB71kSHJgn0mLkd-2" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;&lt;span style=&quot;color:#ff8000;&quot;&gt;Render&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="223" y="330" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l6SydOB71kSHJgn0mLkd-3" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;RenderSingleCamera&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="330" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l6SydOB71kSHJgn0mLkd-4" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;ForwardRenderer&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="300" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l6SydOB71kSHJgn0mLkd-5" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;Setup&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="300" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l6SydOB71kSHJgn0mLkd-6" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;ForwardRenderer&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="370" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l6SydOB71kSHJgn0mLkd-7" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;&lt;span style=&quot;color:#ff8000;&quot;&gt;Execute&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="370" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l6SydOB71kSHJgn0mLkd-8" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;SetupLights&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="370" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l6SydOB71kSHJgn0mLkd-9" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;ExecuteNormalRenderingPath&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="300" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l6SydOB71kSHJgn0mLkd-10" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;ForwardLights&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="300" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l6SydOB71kSHJgn0mLkd-11" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;ProcessLights&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="300" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
