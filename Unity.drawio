@@ -272,33 +272,99 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SmKc5skw1YwQZmRDcOH0" name="Nav">
-    <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1483" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="zTSVlHGSmYAu9Znsg6j4-1" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;Behaviour::UpdateEnabledState&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zTSVlHGSmYAu9Znsg6j4-1" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;Behaviour::UpdateEnabledState&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="370" width="270" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="zTSVlHGSmYAu9Znsg6j4-2" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;NavMeshObstacle::AddToManager&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zTSVlHGSmYAu9Znsg6j4-2" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;NavMeshObstacle::AddToManager&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="390" y="300" width="270" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="zTSVlHGSmYAu9Znsg6j4-3" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;AddToManager&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zTSVlHGSmYAu9Znsg6j4-3" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;AddToManager&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="350" width="130" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="zTSVlHGSmYAu9Znsg6j4-4" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;RemoveFromManager&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zTSVlHGSmYAu9Znsg6j4-4" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;RemoveFromManager&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="400" width="170" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="zTSVlHGSmYAu9Znsg6j4-5" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;NavMeshObstacle::RemoveFromManager&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zTSVlHGSmYAu9Znsg6j4-5" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;NavMeshObstacle::RemoveFromManager&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="430" width="320" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="zTSVlHGSmYAu9Znsg6j4-6" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;NavMeshManager::RegisterObstacle&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zTSVlHGSmYAu9Znsg6j4-6" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;NavMeshManager::RegisterObstacle&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="670" y="300" width="300" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="zTSVlHGSmYAu9Znsg6j4-7" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;m_ObstacleInfo.push_back(info);&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zTSVlHGSmYAu9Znsg6j4-7" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;m_ObstacleInfo.push_back(info);&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="280" width="290" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="zTSVlHGSmYAu9Znsg6j4-8" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;NavMeshManager::UnregisterObstacle&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zTSVlHGSmYAu9Znsg6j4-8" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;NavMeshManager::UnregisterObstacle&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="670" y="430" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-rUlD8TiHWlvf0jzP6Y_-1" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;NavMeshAssetManager&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="800" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-rUlD8TiHWlvf0jzP6Y_-2" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;StartBakingSurfaces&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="800" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-rUlD8TiHWlvf0jzP6Y_-3" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;InitializeBakeData&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="750" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-rUlD8TiHWlvf0jzP6Y_-4" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;BuildNavMeshData&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="750" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-rUlD8TiHWlvf0jzP6Y_-5" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;&lt;span style=&quot;color:#4ec9b0;&quot;&gt;NavMeshBuilder&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="750" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-rUlD8TiHWlvf0jzP6Y_-6" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;&lt;span style=&quot;color:#ffd200;font-style:italic;&quot;&gt;UpdateNavMeshDataListInternal&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="750" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-rUlD8TiHWlvf0jzP6Y_-7" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;UpdateNavMeshDataListInternal&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="790" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-rUlD8TiHWlvf0jzP6Y_-8" value="cpp" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="799" y="806" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-rUlD8TiHWlvf0jzP6Y_-9" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;&lt;span style=&quot;color:#4ec9b0;&quot;&gt;NavMeshBuildManager&lt;/span&gt;::&lt;span style=&quot;color:#ffd200;font-style:italic;&quot;&gt;UpdateNavMeshData&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="790" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-rUlD8TiHWlvf0jzP6Y_-10" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;ScheduleNavMeshDataUpdate&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="830" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-rUlD8TiHWlvf0jzP6Y_-11" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;NavMeshSurface&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="860" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-rUlD8TiHWlvf0jzP6Y_-12" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;UpdateNavMesh&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="860" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-rUlD8TiHWlvf0jzP6Y_-13" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;NavMeshBuilder&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="860" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-rUlD8TiHWlvf0jzP6Y_-14" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;UpdateNavMeshDataAsync&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="860" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-rUlD8TiHWlvf0jzP6Y_-15" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;&lt;span style=&quot;color:#ffd200;font-style:italic;&quot;&gt;UpdateNavMeshDataAsyncListInternal&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="860" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-rUlD8TiHWlvf0jzP6Y_-16" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;UpdateNavMeshDataAsyncListInternal&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="941" y="890" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-rUlD8TiHWlvf0jzP6Y_-17" value="cpp" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="900" y="904" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-rUlD8TiHWlvf0jzP6Y_-19" value="&lt;div style=&quot;background-color:#151515;color:#a9b7c6&quot;&gt;&lt;pre style=&quot;font-family:&#39;Consolas&#39;,monospace;font-size:11.3pt;&quot;&gt;NavMeshBuildManager::UpdateNavMeshDataAsync&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="890" width="360" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-rUlD8TiHWlvf0jzP6Y_-24" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.008;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-rUlD8TiHWlvf0jzP6Y_-10" target="-rUlD8TiHWlvf0jzP6Y_-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1180" y="950" as="sourcePoint" />
+            <mxPoint x="1230" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-rUlD8TiHWlvf0jzP6Y_-25" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-rUlD8TiHWlvf0jzP6Y_-10" target="-rUlD8TiHWlvf0jzP6Y_-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1658" y="874" as="sourcePoint" />
+            <mxPoint x="1460" y="835" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
